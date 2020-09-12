@@ -112,8 +112,8 @@
   ribbon:
     - {abbr: "Keynote", title: "", url: ""}
   social:
-    - {name: "google-plus", link: "google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
+    - {name: "google-scholar", link: "https://scholar.google.com/citations?user=c99cTlEAAAAJ&hl=en"}
+    - {name: "site", link: "https://microbiology.osu.edu/people/jouline.1"}
 -
   id: 3
   name: "Sunduz"
