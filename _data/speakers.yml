@@ -18,9 +18,10 @@
   id: 67
   name: "Ezgi"
   surname: "Karaca"
-  company: "iBG-Izmir"
-  title: ""
+  company: "IBG & Dokuz Eylul University"
+  title: "Towards understanding the factors tuning specific biomolecular interactions"
   bio: "Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv."
+  abstract: "The interplay between specificity and affinity is a significant drive in biomolecular recognition. For many systems, the experimental determination of these factors has been challenging, which has aroused interest in computational prediction of binding affinity/specificity. Numerous algorithms are poised to calculate the binding affinity of biomolecular complexes. On the other hand, there is only a handful of approaches tuned to predict the specificity of binding. To that end, we have developed novel and simple specificity metrics upon working on two model systems. Our metrics are based on the statistical analysis of dynamic interaction profiles of intermolecular surfaces. In our first model system, we uncover that a specific salt-bridge network directs the ligand selection of the transmembrane receptor tyrosine kinase Axl. In our second system, we reveal that distinct hydrogen bonding profiles explain the sequence specificity of de novo DNA methyltransferases. We are currently exploring the generic applicability of our metrics to epigenetics-related systems."
   thumbnailUrl: karaca.jpg
   keynote: false
   embo: false
