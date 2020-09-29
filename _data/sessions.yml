@@ -15,19 +15,23 @@
   speakers: [67]
   service: true
 - id: 113
-  title: "Selected Talk"
+  title: "Selected Talk | ChemBoost: A chemical language based approach for protein - ligand binding affinity prediction"
+  easychair_id: 43
   place: "online"
   service: true
 - id: 114
-  title: "Selected Talk"
+  title: "Selected Talk | Systematic Analysis of Phosphorylation Structure"
+  easychair_id: 29
   place: "online"
   service: true
 - id: 115
-  title: "Selected Talk"
+  title: "Selected Talk | Ligand Switching Mutations in PDZ Domain Explained by Centrality of Amino Acids"
+  easychair_id: 99
   place: "online"
   service: true
 - id: 116
-  title: "Selected Talk"
+  title: "Selected Talk | Robust Inference of Kinase Activity Using Functional Networks"
+  easychair_id: 72
   place: "online"
   service: true
 - id: 117
@@ -54,11 +58,13 @@
   speakers: [78]
   service: true
 - id: 123
-  title: "Selected Talk"
+  title: "Selected Talk | New solutions to old problems: Mitigating data loss and bias in ancient genome data processing"
+  easychair_id: 96
   place: "online"
   service: true
 - id: 124
-  title: "Selected Talk"
+  title: "Selected Talk | Genotyping macro-satellites in the human population"
+  easychair_id: 68
   place: "online"
   service: true
 - id: 125
@@ -82,11 +88,13 @@
   description: "Proximity-based proteomics uncovers new mechanisms underlying rare developmental disorders"
   service: true
 - id: 213
-  title: "Selected Talk"
+  title: "Selected Talk | Pathogenic impact of transcript isoform switching in 1209 cancer samples covering 27 cancer types using an isoform-specific interaction network"
+  easychair_id: 15
   place: "online"
   service: true
 - id: 214
-  title: "Selected Talk"
+  title: "Selected Talk | Integrated Analysis of Transcriptomic and Proteomic Data to Understand The Effect of Aneuploidy on Cancer Genomes"
+  easychair_id: 19
   place: "online"
   service: true
 - id: 215
@@ -95,19 +103,23 @@
   service: true
 - id: 216
   title: "Invited Speaker: Ugur Sezerman"
+  description: "Translational Bioinformatics"
   place: "online"
   service: true
   speakers: [66]
 - id: 217
-  title: "Selected Talk"
+  title: "Selected Talk | Heterogeneous COVID-19 Knowledge Graphs in Comprehensive Resource of Biomedical Relations (CROssBAR) System"
+  easychair_id: 53
   place: "online"
   service: true
 - id: 218
-  title: "Selected Talk"
+  title: "Selected Talk | DriveWays: A Method for Identifying Possibly Overlapping Driver Pathways in Cancer"
+  easychair_id: 32
   place: "online"
   service: true
 - id: 219
-  title: "Selected Talk"
+  title: "Sponsor Talk"
+  easychair_id: 00
   place: "online"
   service: true
 - id: 220
@@ -116,15 +128,18 @@
   service: true
 
 - id: 221
-  title: "Selected Talk"
+  title: "Selected Talk | Validation of LOAD-RF-RF selected risk SNVs For The Early And Differential Diagnosis Of Alzheimer’s Disease"
+  easychair_id: 33
   place: "online"
   service: true
 - id: 222
-  title: "Selected Talk"
+  title: "Selected Talk | Age-related diseases share common genetic associations"
+  easychair_id: 35
   place: "online"
   service: true
 - id: 223
-  title: "Selected Talk"
+  title: "Selected Talk | Inference Attacks Against Differentially-Private Query Results from Genomic Datasets Including Dependent Tuples"
+  easychair_id: 26
   place: "online"
   service: true
 - id: 224
