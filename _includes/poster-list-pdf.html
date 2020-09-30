@@ -16,6 +16,8 @@
             <p>{{ card.Authors }}</p>
             <a class="trigger_popup_fricc" id="abs-open{{ forloop.index }}"
               >Abstract</a
+            ><a class="trigger_popup_fricc" id="pdf-open{{ forloop.index }}"
+              >PDF</a
             >
           </div>
         </div>
@@ -24,6 +26,34 @@
     </div>
   </div>
   {% for card in site.data.abstracts %} {% if card.Poster %}
+  <div class="hover_bkgr_fricc" id="pdf-{{ forloop.index }}">
+    <span class="helper"></span>
+    <div style="max-width: 90%; width: 70%">
+      <div class="popupCloseButton" id="pdf-close{{forloop.index}}">
+        &times;
+      </div>
+      <div id="iholder-{{forloop.index}}"></div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    var drive_link =
+      '<iframe src="https://drive.google.com/file/d/{{ card.drive_id }}/preview" width="640" height="480"></iframe>';
+    $("#pdf-open{{ forloop.index }}").click(function () {
+      $("#iholder-{{forloop.index}}").html(drive_link);
+      $("#pdf-{{ forloop.index }}").show();
+    });
+    $("#pdf-{{forloop.index}}").click(function () {
+      $("#iholder-{{forloop.index}}").html("");
+      $("#pdf-{{ forloop.index }}").hide();
+    });
+    $("#pdf-close{{forloop.index}}").click(function () {
+      $("#iholder-{{forloop.index}}").html("");
+      $("#pdf-{{ forloop.index }}").hide();
+    });
+  </script>
+  {% endif %}{% endfor %} {% for card in site.data.abstracts %} {% if
+  card.Poster %}
   <div class="hover_bkgr_fricc" id="abstract-{{ forloop.index }}">
     <span class="helper"></span>
     <div style="max-width: 90%; width: 70%">
