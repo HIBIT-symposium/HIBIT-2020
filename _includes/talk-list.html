@@ -1,0 +1,52 @@
+<!-- Begin Direction Details-->
+<section id="direction-details" class="direction-details">
+  <div class="content-wrapper">
+    <h3>{{ site.posterListTitle }}</h3>
+
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text-left">
+        {% assign posterList = site.data.abstracts %} {% assign animationDelay =
+        0 %} {% for card in posterList %} {% assign colWidth = 12 %} {% if
+        card.Talk %}
+        <div
+          class="col-md-{{ colWidth }} col-xs-12 same-height animated hiding box"
+          data-animation="fadeInDown"
+          data-delay="{{ animationDelay }}"
+        >
+          <div class="card">
+            <h4>{{ card.Title }}</h4>
+            <p>{{ card.Authors }}</p>
+            <a class="trigger_popup_fricc" id="abs-open{{ forloop.index }}"
+              >Abstract</a
+            >
+          </div>
+        </div>
+        {% endif %} {% assign animationDelay = animationDelay %} {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% for card in site.data.abstracts %} {% if card.Talk %}
+  <div class="hover_bkgr_fricc" id="abstract-{{ forloop.index }}">
+    <span class="helper"></span>
+    <div style="max-width: 90%; width: 70%">
+      <div class="popupCloseButton" id="abs-close{{forloop.index}}">
+        &times;
+      </div>
+      <p>{{ card.Abstract }}</p>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $("#abs-open{{ forloop.index }}").click(function () {
+      $("#abstract-{{ forloop.index }}").show();
+    });
+    $("#abstract-{{forloop.index}}").click(function () {
+      $("#abstract-{{ forloop.index }}").hide();
+    });
+    $("#abs-close{{forloop.index}}").click(function () {
+      $("#abstract-{{ forloop.index }}").hide();
+    });
+  </script>
+  {% endif %}{% endfor %}
+</section>
+<!-- End Direction Details -->
