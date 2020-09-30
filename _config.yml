@@ -47,6 +47,7 @@ navigationLinks:
  - {permalink: "/#tickets", text: "Registration"}
 #  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/committees/", text: "Committees"}
+ - {permalink: "/talks/", text: "Talks"}
  - {permalink: "/posters/", text: "Posters"}
 bottomNavigationLinks:
   - {link: "#", text: "Abstract Submission Deadline Passed"}

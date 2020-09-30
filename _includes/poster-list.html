@@ -5,8 +5,9 @@
 
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-left">
-        {% assign animationDelay = 0 %} {% for card in site.data.abstracts %} {%
-        assign colWidth = 12 %}
+        {% assign posterList = site.data.abstracts %} {% assign animationDelay =
+        0 %} {% for card in posterList %} {% assign colWidth = 12 %} {% if
+        card.Poster %}
         <div
           class="col-md-{{ colWidth }} col-xs-12 same-height animated hiding box"
           data-animation="fadeInDown"
@@ -20,11 +21,11 @@
             >
           </div>
         </div>
-        {% assign animationDelay = animationDelay %} {% endfor %}
+        {% endif %} {% assign animationDelay = animationDelay %} {% endfor %}
       </div>
     </div>
   </div>
-  {% for card in site.data.abstracts %}
+  {% for card in site.data.abstracts %} {% if card.Poster %}
   <div class="hover_bkgr_fricc" id="abstract-{{ forloop.index }}">
     <span class="helper"></span>
     <div style="max-width: 90%; width: 70%">
@@ -46,6 +47,6 @@
       $("#abstract-{{ forloop.index }}").hide();
     });
   </script>
-  {% endfor %}
+  {% endif %}{% endfor %}
 </section>
 <!-- End Direction Details -->
