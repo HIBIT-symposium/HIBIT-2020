@@ -2,6 +2,7 @@
 layout: post
 title:  "How to attend HIBIT virtual conference?"
 date:   2020-10-01 09:00:00
+image: virtual.jpg
 isStaticPost: false
 ---
 
