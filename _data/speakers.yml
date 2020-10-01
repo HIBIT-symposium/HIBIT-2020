@@ -12,10 +12,10 @@
   embo: false
   invited: true
   ribbon:
-    - {abbr: "Invited Speaker", title: "", url: "developers.google.com/groups/chapter/110301321530950732281/"}
-  social:
-    - {name: "google-plus", link: "plus.google.com/+RomanMazur/"}
-    - {name: "twitter", link: "http://twitter.com/roman_mazur"}
+    - {abbr: "Invited Speaker", title: "", url: ""}
+  # social:
+  #   - {name: "google-plus", link: "plus.google.com/+RomanMazur/"}
+  #   - {name: "twitter", link: "http://twitter.com/roman_mazur"}
 -
   id: 67
   name: "Ezgi"
@@ -30,14 +30,14 @@
   embo: false
   invited: true
   ribbon:
-    - {abbr: "Invited Speaker", title: "", url: "developers.google.com/groups/chapter/110301321530950732281/"}
-  social:
-    - {name: "google-plus", link: "plus.google.com/+RomanMazur/"}
-    - {name: "twitter", link: "http://twitter.com/roman_mazur"}
+    - {abbr: "Invited Speaker", title: "", url: ""}
+  # social:
+  #   - {name: "google-plus", link: "plus.google.com/+RomanMazur/"}
+  #   - {name: "twitter", link: "http://twitter.com/roman_mazur"}
 
 -
   id: 68
-  name: "Elif"
+  name: "Elif Nur"
   surname: "Firat-Karalar"
   company: "Koc University"
   title: "Dr."
@@ -49,10 +49,10 @@
   embo: false
   invited: true
   ribbon:
-    - {abbr: "Invited Speaker", title: "", url: "developers.google.com/groups/chapter/110301321530950732281/"}
-  social:
-    - {name: "google-plus", link: "plus.google.com/+RomanMazur/"}
-    - {name: "twitter", link: "http://twitter.com/roman_mazur"}
+    - {abbr: "Invited Speaker", title: "", url: ""}
+  # social:
+  #   - {name: "google-plus", link: "plus.google.com/+RomanMazur/"}
+  #   - {name: "twitter", link: "http://twitter.com/roman_mazur"}
 
 -
   id: 77
@@ -69,9 +69,9 @@
   invited: false
   ribbon:
     - {abbr: "EMBO YIP", title: "", url: ""}
-  social:
-    - {name: "google-plus", link: "google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
+  # social:
+  #   - {name: "google-plus", link: "google.com/+ValentynShybanov"}
+  #   - {name: "site", link: "http://olostan.name/"}
 
 -
   id: 78
@@ -88,9 +88,9 @@
   invited: false
   ribbon:
     - {abbr: "EMBO YIP", title: "", url: ""}
-  social:
-    - {name: "google-plus", link: "google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
+  # social:
+  #   - {name: "google-plus", link: "google.com/+ValentynShybanov"}
+  #   - {name: "site", link: "http://olostan.name/"}
 -
   id: 1
   name: "Janet"
@@ -113,8 +113,8 @@ These approaches will allow us to analyse complex enzyme families, their mechani
   invited: false
   ribbon:
     - {abbr: "Keynote", title: "", url: ""}
-  social:
-    - {name: "EMBL-EBI", link: "https://www.ebi.ac.uk/about/people/janet-thornton"}
+#   social:
+#     - {name: "EMBL-EBI", link: "https://www.ebi.ac.uk/about/people/janet-thornton"}
 -
   id: 2
   name: "Igor"
@@ -130,9 +130,9 @@ These approaches will allow us to analyse complex enzyme families, their mechani
   invited: false
   ribbon:
     - {abbr: "Keynote", title: "", url: ""}
-  social:
-    - {name: "google-scholar", link: "https://scholar.google.com/citations?user=c99cTlEAAAAJ&hl=en"}
-    - {name: "site", link: "https://microbiology.osu.edu/people/jouline.1"}
+  # social:
+  #   - {name: "google-scholar", link: "https://scholar.google.com/citations?user=c99cTlEAAAAJ&hl=en"}
+  #   - {name: "site", link: "https://microbiology.osu.edu/people/jouline.1"}
 -
   id: 3
   name: "Sunduz"
@@ -148,6 +148,6 @@ These approaches will allow us to analyse complex enzyme families, their mechani
   invited: false
   ribbon:
     - {abbr: "Keynote", title: "", url: ""}
-  social:
-    - {name: "google-plus", link: "google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
+  # social:
+  #   - {name: "google-plus", link: "google.com/+ValentynShybanov"}
+  #   - {name: "site", link: "http://olostan.name/"}
