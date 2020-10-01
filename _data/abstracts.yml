@@ -548,7 +548,7 @@
   Title: "Genotyping macro-satellites in the human population"
   Poster: False
   Talk: True
-  Presenting_author: ""
+  Presenting_author: "Marzieh Eslami Rasekh"
   Abstract:
     "Macrosatellite repeats (MSRs) are DNA patterns of 100 bp or longer that repeat tandemly throughout the genome. MSRs that change copy number are called variable number tandem repeats (VNTRs), which have been predicted to have biological effects and have been linked to diseases. However, MSRs have not been studied in a high-throughput fashion. Therefore, we have developed a computational tool named Macro-Satellites Using Depth (MaSUD) to genotype MSR loci in the human genome. To predict copy number changes, MaSUD compares the number of reads mapping inside each MSR locus to a background distribution of similarly simulated reads of the reference allele. The performance of MaSUD was demonstrated on simulated datasets (precision>90% and recall>50%) and validated using long PacBio reads (linear regression p-value<2e-16 and r2=0.55, correlation=74.76%).\
     We ran MaSUD on 2,504 genomes from five super-populations of the 1000 Genomes Project using 3,875 reference MSR loci. MaSUD predicted that >95% of these MSRs have a copy number variant in at least one individual and that, on average, a locus was variant in 1,457 individuals. A total of 2,512 VNTRs overlapped with 1,190 genes that were enriched in pathways related to cancer, diabetes, neuron differentiation, and neurogenesis.\
@@ -723,7 +723,7 @@
   Title: "Cardiac atrial transcriptomic landscaping reveals defects in various pathways in patients with ischemic heart disease or heart failure"
   Poster: False
   Talk: True
-  Presenting_author: ""
+  Presenting_author: "Arda Eskin"
   Abstract: |
     Ischemic heart disease (IHD), causing high morbidity and mortality, continues to be the leading cause of death worldwide. In this study, samples of right atrial appendage were collected for transcriptomic profiling from 40 patients with IHD undergoing elective coronary artery bypass grafting (CABG) surgery. Additionally, 8 samples from patients with solitary valvular disease undergoing corrective valvular surgery were harvested to serve as controls. Clinical and follow-up data including medication, laboratory measurements are also collected for each patient. We obtained the transcriptomic data of healthy right atrial appendage tissue from GTEx (n = 429). Our aim in this study is to find novel associations and genes related to IHD and to predict the risk of having IHD by integrating transcriptomic, clinical and interactome data.
 
