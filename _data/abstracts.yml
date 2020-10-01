@@ -130,7 +130,7 @@
   Title: "Pathogenic impact of transcript isoform switching in 1209 cancer samples covering 27 cancer types using an isoform-specific interaction network"
   Poster: False
   Talk: True
-  Presenting_author: ""
+  Presenting_author: "Tülay Karakulak"
   Abstract: "Alternative splicing regulation is often disturbed in various cancers leading to cancer-specific switches in the Most Dominant Transcripts (cMDT). To understand how these switches drive oncogenesis, we have analyzed isoform-specific protein interaction disruptions in the Pan-Cancer Analysis of Whole Genomes (PCAWG) project. Our study identified large variations in the number of cMDT with the highest frequency in cancers of female reproductive organs. Surprisingly, in contrast to the mutational load, cancers arising from the same primary tissue showed similar numbers of cMDT. Some cMDT were found in almost all samples of a cancer type rendering them as ideal diagnostic biomarkers. Other cMDT tended to be located at densely populated protein network regions disrupting interactions next to pathogenic cancer gene products in enzyme signalling, protein translation, and RNA splicing pathways. The highlighted common and distinct patterns of alternative splicing deregulations constitute new avenues for novel therapeutic targets in the fight against cancer."
 - ID: "16"
   Authors: "Ezgi Demir Karaman and Zerrin Işık"
