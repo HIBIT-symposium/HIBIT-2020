@@ -160,13 +160,13 @@
       endTime: "17:00"
 
 
-- date: "2020-10-24"
-  dateReadable: "October 24"
-  tracks:
-    - { title: "Student Symposium", color: "#90be4e" }
-  timeslots:
-    - 
-      sessionIds:
-        - 500
-      startTime: "09:00"
-      endTime: "09:15"
+# - date: "2020-10-24"
+#   dateReadable: "October 24"
+#   tracks:
+#     - { title: "Student Symposium", color: "#90be4e" }
+#   timeslots:
+#     - 
+#       sessionIds:
+#         - 500
+#       startTime: "09:00"
+#       endTime: "09:15"
