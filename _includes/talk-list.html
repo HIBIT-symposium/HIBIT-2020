@@ -14,9 +14,10 @@
           <div class="card">
             <h4>{{ card.Title }}</h4>
             <p>{{ card.Authors }}</p>
-            <a class="trigger_popup_fricc" id="abs-open{{ forloop.index }}"
-              >Abstract</a
-            >
+            <p>Presenting author: {{ card.Presenting_author }}</p>
+            <a class="trigger_popup_fricc" id="abs-open{{ forloop.index }}">
+              Abstract
+            </a>
           </div>
         </div>
         {% endif %} {% assign animationDelay = animationDelay %} {% endfor %}
