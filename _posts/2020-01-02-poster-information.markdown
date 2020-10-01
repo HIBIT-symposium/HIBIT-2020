@@ -12,8 +12,8 @@ Contributors wishing to present their work at HIBIT 2020 as a poster presentatio
 
 All selected abstracts will be printed in the conference abstract book and assigned a video conference room during the poster session. 
 
-Posters should be prepared at A0 size or similar (841 mm x 1189 mm) and in portrait orientation.
+Posters should be prepared at any size in landscape orientation.
 
-Each poster presenter will be assigned to one of the 4 time slots of the poster sessions. In their assigned time slot, poster presenters should be in a conference room (link will be provided) and wait for participants to join to discuss their posters. Participants are expected to watch the poster video of their poster of interest and join the associated room to ask questions and discuss the research.
+Each poster presenter will be assigned to one of the 2 time slots of the poster sessions. In their assigned time slot, poster presenters should be in a conference room (link will be provided) and wait for participants to join to discuss their posters. Participants are expected to watch the poster video of their poster of interest and join the associated room to ask questions and discuss the research.
 
 
