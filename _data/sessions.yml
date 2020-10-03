@@ -119,7 +119,6 @@
   service: true
 - id: 219
   title: "Sponsor Talk"
-  easychair_id: 00
   place: "online"
   service: true
 - id: 220
