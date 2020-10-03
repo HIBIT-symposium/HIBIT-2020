@@ -12,7 +12,7 @@
   title: "Invited Speaker: Ezgi Karaca"
   place: "online"
   description: ""
-  speakers: [67]
+  speakers: 67
   service: true
 - id: 113
   title: "Selected Talk | ChemBoost: A chemical language based approach for protein - ligand binding affinity prediction"
@@ -38,7 +38,7 @@
   title: "Keynote Speaker: Janet Thornton"
   place: "online"
   description: "Computational Enzymology: The structure, function and evolution of enzymes"
-  speakers: [1]
+  speakers: 1
   service: true
 - id: 118
   title: "Lunch Break"
@@ -49,13 +49,13 @@
   title: "Invited Speaker: Fran Supek"
   place: "online"
   description: "Error-free and error-prone DNA repair shape mutation landscapes in human tumors"
-  speakers: [77]
+  speakers: 77
   service: true
 - id: 122
   title: "Invited Speaker: Ana Cvejic"
   place: "online"
   description: "Lineage tracing of human embryonic development and foetal haematopoiesis through somatic mutations"
-  speakers: [78]
+  speakers: 78
   service: true
 - id: 123
   title: "Selected Talk | New solutions to old problems: Mitigating data loss and bias in ancient genome data processing"
@@ -76,7 +76,7 @@
   description: "How novel sensors arise in bacteria"
   place: "online"
   service: true
-  speakers: [2]
+  speakers: 2
 
 - id: 211
   title: "Announcements"
@@ -106,7 +106,7 @@
   description: "Translational Bioinformatics"
   place: "online"
   service: true
-  speakers: [66]
+  speakers: 66
 - id: 217
   title: "Selected Talk | Heterogeneous COVID-19 Knowledge Graphs in Comprehensive Resource of Biomedical Relations (CROssBAR) System"
   easychair_id: 53
@@ -151,7 +151,7 @@
   place: "online"
   description: "Identifying effector genes of human GWAS variants by INFIMA"
   service: true
-  speakers: [3]
+  speakers: 3
 - id: 226
   title: "Closing Remarks"
   place: "online"
@@ -161,7 +161,6 @@
   title: "Student Symposium"
   place: "online"
   service: true
-
 # - id: 002
 #   title: "Material design: Visual style and imagery"
 #   description: "This session will reveal the invisible structures behind the material design system. Designers will show how to use the new color systems, typographic strategies, and the underlying grids that hold it together. They will show how imagery and the new framework material rendering can make apps more interesting and communicate more quickly."
