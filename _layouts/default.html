@@ -12,6 +12,10 @@ layout: compress
         <div class="loader-gplus"></div>
     </div>
 
+    <div>
+    <div id='bio-holder'> </div>
+    </div>
+
     <div id="st-container" class="st-container disable-scrolling">
         <div class="st-pusher">
             <div class="st-content">
@@ -84,7 +88,7 @@ layout: compress
         var keynoteSpeakers = [
             {% for speaker in site.data.speakers %}
         {% if speaker.keynote %}
-        { name: "{{ speaker.name }} {{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}" } {% if forloop.index != forloop.length %}, {% endif %}
+        { name: "{{ speaker.name }} {{ speaker.surname }}", id: "{{ speaker.name }}".split(' ')[0], bio:"{{ speaker.bio }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}" } {% if forloop.index != forloop.length %}, {% endif %}
         {% endif %}
         {% endfor %}
                 ];
@@ -93,7 +97,7 @@ layout: compress
         var emboSpeakers = [
             {% for speaker in site.data.speakers %}
         {% if speaker.embo %}
-        { name: "{{ speaker.name }} {{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}" } {% if forloop.index != forloop.length %}, {% endif %}
+        { name: "{{ speaker.name }} {{ speaker.surname }}", id: "{{ speaker.name }}".split(' ')[0], bio:"{{ speaker.bio }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}" } {% if forloop.index != forloop.length %}, {% endif %}
         {% endif %}
         {% endfor %}
                 ];
@@ -102,7 +106,7 @@ layout: compress
         var invitedSpeakers = [
             {% for speaker in site.data.speakers %}
         {% if speaker.invited %}
-        { name: "{{ speaker.name }} {{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}" } {% if forloop.index != forloop.length %}, {% endif %}
+        { name: "{{ speaker.name }} {{ speaker.surname }}", id: "{{ speaker.name }}".split(' ')[0], bio:"{{ speaker.bio }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}" } {% if forloop.index != forloop.length %}, {% endif %}
         {% endif %}
         {% endfor %}
                 ];
@@ -113,14 +117,33 @@ layout: compress
             var animationDelay = 1500,
                 count = Math.min({{ site.keynoteSpeakersCount }}, keynoteSpeakers.length),
         colWidth = 12 / count;
-        
         for (i = 0; i < count; i++) {
             var clearfix = '<div class="clearfix visible-xs"></div>';
             if ((i) % 2 != 0) {
                 clearfix = ""
             }
-            $('#keynote-speaker-title').after('<div class="col-md-' + colWidth + ' col-xs-6 keynote-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay + '"><div class="keynote-speaker"><div class="flow-img img-circle keynote-speaker-img" style="background-image: url(' + keynoteSpeakers[i].image + ')"></div><div class="name">' + keynoteSpeakers[i].name + '</div><div class="sub">' + keynoteSpeakers[i].company + '</div></div></div>' + clearfix);
-            animationDelay -= 500;
+            $('#keynote-speaker-title').after('<div class="col-md-' + colWidth + ' col-xs-6 keynote-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay + '"><div class="keynote-speaker k-speaker" id="' + i + '"><div class="flow-img img-circle keynote-speaker-img" style="background-image: url(' + keynoteSpeakers[i].image + ')"></div><div class="name">' + keynoteSpeakers[i].name + '</div><div class="sub">' + keynoteSpeakers[i].company + '</div></div></div>' + clearfix);
+
+            $('.k-speaker').click(function (event) {
+                $('#bio-overlay-k' + this.id).show();
+            });
+
+
+            $('#bio-holder').after(`<div class="hover_bkgr_fricc" id="bio-overlay-k` + i + `">
+              <span class="helper"></span>
+              <div style="max-width: 90%; width: 70%">
+                <div class="popupCloseButton" id="` + i + `">
+                  &times;
+                </div>
+                <p>` + keynoteSpeakers[i].bio + `</p>
+              </div>
+            </div>`);
+
+            $('.popupCloseButton').click(function (event) {
+                $('#bio-overlay-k' + this.id).hide();
+            });
+
+                animationDelay -= 500;
         }
                 }
 
@@ -135,7 +158,26 @@ layout: compress
             if ((i) % 2 != 0) {
                 clearfix = ""
             }
-            $('#embo-speaker-title').after('<div class="col-md-' + colWidth + ' col-xs-6 keynote-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay + '"><div class="keynote-speaker"><div class="flow-img img-circle keynote-speaker-img" style="background-image: url(' + emboSpeakers[i].image + ')"></div><div class="name">' + emboSpeakers[i].name + '</div><div class="sub">' + emboSpeakers[i].company + '</div></div></div>' + clearfix);
+            $('#embo-speaker-title').after('<div class="col-md-' + colWidth + ' col-xs-6 keynote-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay + '"><div class="keynote-speaker e-speaker" id="' + i + '"><div class="flow-img img-circle keynote-speaker-img" style="background-image: url(' + emboSpeakers[i].image + ')"></div><div class="name">' + emboSpeakers[i].name + '</div><div class="sub">' + emboSpeakers[i].company + '</div></div></div>' + clearfix);
+
+            $('.e-speaker').click(function (event) {
+                $('#bio-overlay-e' + this.id).show();
+            });
+
+
+            $('#bio-holder').after(`<div class="hover_bkgr_fricc" id="bio-overlay-e` + i + `">
+              <span class="helper"></span>
+              <div style="max-width: 90%; width: 70%">
+                <div class="popupCloseButton" id="` + i + `">
+                  &times;
+                </div>
+                <p>` + emboSpeakers[i].bio + `</p>
+              </div>
+            </div>`);
+
+            $('.popupCloseButton').click(function (event) {
+                $('#bio-overlay-e' + this.id).hide();
+            });
             animationDelay -= 500;
         }
                 }
@@ -150,7 +192,26 @@ layout: compress
             if ((i) % 2 != 0) {
                 clearfix = ""
             }
-            $('#invited-speaker-title').after('<div class="col-md-' + colWidth + ' col-xs-6 keynote-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay + '"><div class="keynote-speaker"><div class="flow-img img-circle keynote-speaker-img" style="background-image: url(' + invitedSpeakers[i].image + ')"></div><div class="name">' + invitedSpeakers[i].name + '</div><div class="sub">' + invitedSpeakers[i].company + '</div></div></div>' + clearfix);
+            $('#invited-speaker-title').after('<div class="col-md-' + colWidth + ' col-xs-6 keynote-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay + '"><div class="keynote-speaker i-speaker" id="' + i + '"><div class="flow-img img-circle keynote-speaker-img" style="background-image: url(' + invitedSpeakers[i].image + ')"></div><div class="name">' + invitedSpeakers[i].name + '</div><div class="sub">' + invitedSpeakers[i].company + '</div></div></div>' + clearfix);
+
+            $('.i-speaker').click(function (event) {
+                $('#bio-overlay-i' + this.id).show();
+            });
+
+
+            $('#bio-holder').after(`<div class="hover_bkgr_fricc" id="bio-overlay-i` + i + `">
+              <span class="helper"></span>
+              <div style="max-width: 90%; width: 70%">
+                <div class="popupCloseButton" id="` + i + `">
+                  &times;
+                </div>
+                <p>` + invitedSpeakers[i].bio + `</p>
+              </div>
+            </div>`);
+
+            $('.popupCloseButton').click(function (event) {
+                $('#bio-overlay-i' + this.id).hide();
+            });
             animationDelay -= 500;
         }
                 }
@@ -191,7 +252,6 @@ layout: compress
         });
     </script>
     {% endif %}
-
     {% include schema-event.html %}
 </body>
 
