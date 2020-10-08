@@ -1,17 +1,17 @@
-# - 
+# -
 #   group: "Gold sponsors"
-#   elements: 
+#   elements:
 #     # - {name: "Google", description: "Google", link: "//www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
 #     # - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
-# - 
+# -
 #   group: "Silver sponsor"
-#   elements: 
+#   elements:
 #     # - {name: "Google", description: "Google", link: "//www.google.com.ua/intl/en/about/", imageUrl: "google.svg", width: "120px"}
 #     # - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg", width: "120px"}
 #     # - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "//github.com/gdg-x", imageUrl: "gdg-x.svg", width: "120px"}
-# - 
+# -
 #   group: "Bronze sponsors"
-#   elements: 
+#   elements:
 #     # - {name: "Google", description: "Google", link: "//www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
 #     # - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
 #     # - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "//github.com/gdg-x", imageUrl: "gdg-x.svg"}
@@ -21,9 +21,9 @@
 #     # - {name: "Google", description: "Google", link: "//www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
 #     # - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
 #     # - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "//github.com/gdg-x", imageUrl: "gdg-x.svg"}
-# - 
+# -
 #   group: "In-kind sponsors"
-#   elements: 
+#   elements:
 #     # - {name: "Google", description: "Google", link: "//www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
 #     # - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
 #     # - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "//github.com/gdg-x", imageUrl: "gdg-x.svg"}
@@ -33,10 +33,20 @@
 #     # - {name: "Google", description: "Google", link: "//www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
 #     # - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
 #     # - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "//github.com/gdg-x", imageUrl: "gdg-x.svg"}
-- 
-  # group: "With the support of"
+- # group: "With the support of"
   group: ""
-  elements: 
-    - {name: "Sabanci University", description: "Sabanci University", link: "//sabanciuniv.edu/en", imageUrl: "sabanci.svg"}
+  elements:
+    - {
+        name: "Sabanci University",
+        description: "Sabanci University",
+        link: "//sabanciuniv.edu/en",
+        imageUrl: "sabanci.svg",
+      }
+    - {
+        name: "CompecTA",
+        description: "CompecTA",
+        link: "//compecta.com.tr",
+        imageUrl: "/img/sponsors/compecta_200.png",
+      }
     # - {name: "INZVA", description: "INZVA", link: "//inzva.com/", imageUrl: "inzva.svg"}
     # - {name: "EMBO", description: "European Molecular Biology Organization", link: "//embo.org", imageUrl: "embo.svg"}
