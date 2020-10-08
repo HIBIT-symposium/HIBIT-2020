@@ -46,7 +46,7 @@
         name: "CompecTA",
         description: "CompecTA",
         link: "//compecta.com.tr",
-        imageUrl: "/img/sponsors/compecta_200.png",
+        imageUrl: "compecta_200.png",
       }
     # - {name: "INZVA", description: "INZVA", link: "//inzva.com/", imageUrl: "inzva.svg"}
     # - {name: "EMBO", description: "European Molecular Biology Organization", link: "//embo.org", imageUrl: "embo.svg"}
