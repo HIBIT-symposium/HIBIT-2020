@@ -306,18 +306,8 @@
   drive_id: "1cCJsC-z4dE8IPHDFvy491LgXRmsdKm5j"
   Talk: False
   Abstract: "RNA splicing is a cellular process that pre-mRNAs are processed into mature mRNAs. This provides the production of multiple mRNA transcripts from a single gene. This process is important for proper protein synthesis. Thanks to advanced sequencing technologies, many splice site variants have been reported to be associated with the diseases. RNA splice site prediction is essential for gene finding and genome annotation, as well as identifying potential variants that are biomarkers and disease-causing variants. In the past few years, Deep Learning has become a prominent pattern recognition tool. Many successful algorithms have been designed to extract complex patterns from data with different characteristics. Most promising approaches for genomic data structures are based on Convolutional Neural Networks (CNNs) or Bidirectional Long Short-Term Memory (BLSTM) cells. CNNs are sensible choices because, in genomic data, each nucleotide has a correlation with other bases in its vicinity. LSTM is also a sensible class of methods since genomic data are encoded as a one-dimensional sequence. Our CNN and BLSTM models have resulted in 98 % and 96 % accuracy, respectively."
-- ID: "38"
-  Authors: "Mohamed Shehata, Aişe Ünlü and Emel Timuçin"
-  Title: "Brave new surfactant world revisited by lipases: activation and unfolding in SDS*"
-  Poster: True
-  drive_id: "1cCJsC-z4dE8IPHDFvy491LgXRmsdKm5j"
-  Talk: False
-  Abstract: |
-    Lipases are robust enzymes that carry great potential for chemical industry applications. Lipases are activated at the water-lipid interface in a process known as interfacial activation. This process involves a large conformational changes triggered by the lipid interface. Surfactants, as they mimic lipase substrates, are often utilized in crystallization studies to induce lipase activation. Nevertheless, lipase-surfactants interactions and how these interactions achieve lipase activation remain largely unclear at the molecular level. To this end, we have analyzed these interactions in µs-scale molecular dynamic (MD) simulations. We have recruited both lipase conformers, open and closed, and analyzed their dynamics at 2 distinct temperatures in the presence of sodium dodecyl sulfate (SDS) which is arguably the most widely used surfactant in wet-lab. As control, we also simulated both lipase conformations in water for 2 µs, providing us with the longest lipase simulations. Analysis of the trajectories showed that SDS micelles that were immediately formed after 1-2 ns largely interacted with the lid domain regardless of the conformation. These interactions ultimately triggered a conformational change in the closed lid, consistent with the activation process. Other than specific lid movement in the closed conformation, neither of the lipase conformations underwent unfolding in the presence of SDS. When we increased the simulation temperature to 373 K which matches with the condition that is used in SDS-PAGE experimentation, we observed that SDS induced unfolding of both conformations at high temperature. Notably, unfolding was initiated from the same region of two conformations which is the zinc binding domain. Experiments are also being conducted to validate these findings Overall our study provides insights into lipase activation by an ionic surfactant for the first time, reflecting the potential of SDS for crystallization studies to capture active form of lipases.
-
-    *A tribute to the review on protein-surfactant interactions: “Proteins in a brave new surfactant world” by Daniel E. Otzen
 - ID: "39"
-  Authors: "Berkay Selçuk"
+  Authors: "Berkay Selçuk, Ogun Adebali"
   Title: "Identification of the subfamily-specific functional residues of aminergic GPCRs through evolutionary analyses"
   Poster: True
   drive_id: "1cCJsC-z4dE8IPHDFvy491LgXRmsdKm5j"
