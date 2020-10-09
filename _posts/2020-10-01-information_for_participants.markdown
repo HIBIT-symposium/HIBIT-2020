@@ -6,6 +6,7 @@ image: virtual.jpg
 isStaticPost: false
 ---
 
+
 HIBIT 2020 will be held on the 22nd-23rd of October. Registrations will be open and FREE until October 15th.
 
 #####  Dedicate your time as much as possible for two days
@@ -15,10 +16,6 @@ We try our best to create a virtual environment that resembles the physical conf
 #####  Listening to the talks
 
 The event will take place on Zoom Webinar. You do not need a registered Zoom account. We will send the video conference link to your emails that you used for registration. It is important that you do not share this with others, as the room will have a limit of attendees. For the same reason, if you attend late, we cannot guarantee your participation.
-
-#####  Coffee breaks
-
-We will send the participants to breakout rooms for networking. You will see the speakers, chairs and other participants in the breakout room. If you are willing to go to the breakroom with a speaker, you can let the organizers (hibit2020@gmail.com) know about your request before the conference. We will try our best to create a small room for people who can interact with each other.
 
 #####  How to ask questions?
 
