@@ -16,4 +16,5 @@ Posters should be prepared at any size in landscape orientation.
 
 Each poster presenter will be assigned to one of the 2 time slots of the poster sessions. In their assigned time slot, poster presenters should be in a conference room (link will be provided) and wait for participants to join to discuss their posters. Participants are expected to watch the poster video of their poster of interest and join the associated room to ask questions and discuss the research.
 
+Poster prizes will be announced on October 24th at [RSG-Turkey Student Symposium](https://symposium2020.rsgturkey.com). If you would like to be present during poster prize announcements, you should separately register for the RSG-Turkey Student Symposium.
 
