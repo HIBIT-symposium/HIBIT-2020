@@ -8,14 +8,22 @@
         - 111
       startTime: "09:00"
       endTime: "09:10"
+
+    - 
+      sessionIds:
+        - 1001
+      startTime: "09:10"
+      endTime: "11:00"
     - 
       sessionIds:
         - 112
+        # - 1001
       startTime: "09:10"
       endTime: "09:40"
     - 
       sessionIds:
         - 113
+        # - 1001
       startTime: "09:40"
       endTime: "10:00"
     - 
@@ -35,6 +43,11 @@
       endTime: "11:00"
     - 
       sessionIds:
+        - 1002
+      startTime: "11:30"
+      endTime: "12:15"
+    - 
+      sessionIds:
         - 117
       startTime: "11:30"
       endTime: "12:15"
@@ -43,6 +56,11 @@
         - 118
       startTime: "12:15"
       endTime: "13:15"
+    - 
+      sessionIds:
+        - 1003
+      startTime: "13:15"
+      endTime: "14:55"
     - 
       sessionIds:
         - 121
@@ -70,6 +88,11 @@
       endTime: "16:30"
     - 
       sessionIds:
+        - 1004
+      startTime: "16:30"
+      endTime: "17:15"
+    - 
+      sessionIds:
         - 126
       startTime: "16:30"
       endTime: "17:15"
@@ -83,6 +106,11 @@
         - 211
       startTime: "09:00"
       endTime: "09:10"
+    - 
+      sessionIds:
+        - 1005
+      startTime: "09:10"
+      endTime: "10:20"
     - 
       sessionIds:
         - 212
@@ -103,6 +131,11 @@
         - 215
       startTime: "10:20"
       endTime: "11:00"
+    - 
+      sessionIds:
+        - 1006
+      startTime: "11:00"
+      endTime: "12:30"
     - 
       sessionIds:
         - 216
@@ -130,6 +163,11 @@
       endTime: "13:30"
     - 
       sessionIds:
+        - 1007
+      startTime: "13:30"
+      endTime: "14:30"
+    - 
+      sessionIds:
         - 221
       startTime: "13:30"
       endTime: "13:50"
@@ -148,6 +186,11 @@
         - 224
       startTime: "14:30"
       endTime: "16:00"
+    - 
+      sessionIds:
+        - 1008
+      startTime: "16:00"
+      endTime: "16:45"
     - 
       sessionIds:
         - 225
