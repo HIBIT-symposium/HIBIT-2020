@@ -84,6 +84,7 @@
   service: true
 - id: 212
   title: "Invited Speaker: Elif Karalar"
+  speakers: 68
   place: "online"
   description: "Proximity-based proteomics uncovers new mechanisms underlying rare developmental disorders"
   service: true
@@ -138,7 +139,7 @@
   service: true
 - id: 223
   title: "Selected Talk | Inference Attacks Against Differentially-Private Query Results from Genomic Datasets Including Dependent Tuples"
-  easychair_id: 26
+  easychair_id: 10
   place: "online"
   service: true
 - id: 224
