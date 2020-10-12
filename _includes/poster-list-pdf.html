@@ -3,7 +3,7 @@
   <div class="content-wrapper">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-left">
-        {% assign posterList = site.data.abstracts | sort: 'ID' %} {% assign
+        {% assign posterList = site.data.abstracts %} {% assign
         animationDelay = 0 %} {% for card in posterList %} {% assign colWidth =
         12 %} {% if card.Poster %}
         <div
@@ -12,7 +12,8 @@
           data-delay="{{ animationDelay }}"
         >
           <div class="card">
-            <h4>{{ card.Title }}</h4>
+            <h4>{{card.ID}}) {{ card.Title }}</h4>
+            {% assign iid = card.ID | plus: 0 %}<p>{% if iid <= 58 %}October 22{%else%}October 23{%endif%}</p></br>
             <p>{{ card.Authors }}</p>
             <a class="trigger_popup_fricc" id="abs-open{{ forloop.index }}"
               >Abstract</a
@@ -25,7 +26,7 @@
       </div>
     </div>
   </div>
-  {% for card in site.data.abstracts | sort: 'ID' %} {% if card.Poster %}
+  {% for card in site.data.abstracts %} {% if card.Poster %}
   <div class="hover_bkgr_fricc" id="pdf-{{ forloop.index }}">
     <span class="helper"></span>
     <div style="max-width: 90%; width: 70%">
@@ -52,7 +53,7 @@
       $("#pdf-{{ forloop.index }}").hide();
     });
   </script>
-  {% endif %}{% endfor %} {% for card in site.data.abstracts | sort: 'ID' %} {%
+  {% endif %}{% endfor %} {% for card in site.data.abstracts %} {%
   if card.Poster %}
   <div class="hover_bkgr_fricc" id="abstract-{{ forloop.index }}">
     <span class="helper"></span>
