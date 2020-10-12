@@ -358,6 +358,7 @@ OrganizationCommittee:
  - {name: "Stuart James Lucas", institute: "Sabancı University", website: " "}
  - {name: "Ercüment Çiçek", institute: "Bilkent University", website: " "}
  - {name: "Hilal Kazan", institute: "Antalya Bilim University", website: " "}
+ 
 
 
 # Program Committee
@@ -410,6 +411,12 @@ StudentOrganizationCommittee:
  - {name: "Halil Tuvan Gezer", institute: "Sabancı University", website: " "}
  - {name: "Begüm Özemek Güner", institute: "Max Planck Institute for Molecular Genetics", website: " "}
 
+ PosterAwardCommittee:
+ - {name: "Nurcan Tunçbağ", institute: "Middle East Technical University", website: " "}
+ - {name: "Tunca Doğan", institute: "Hacettepe University", website: " "}
+ - {name: "Özlen Konu", institute: "Bilkent University", website: " "}
+ - {name: "Stuart J. Lucas", institute: "Sabancı University Nanotechnology Research & Application Center", website: " "}
+ - {name: "Yavuz Oktay", institute: "Izmir Biomedicine & Genome Center", website: " "}
 
 #directionDetailsWideCards:
 # -
