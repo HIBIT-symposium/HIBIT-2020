@@ -411,7 +411,7 @@ StudentOrganizationCommittee:
  - {name: "Halil Tuvan Gezer", institute: "Sabancı University", website: " "}
  - {name: "Begüm Özemek Güner", institute: "Max Planck Institute for Molecular Genetics", website: " "}
 
- PosterAwardCommittee:
+PosterAwardCommittee:
  - {name: "Nurcan Tunçbağ", institute: "Middle East Technical University", website: " "}
  - {name: "Tunca Doğan", institute: "Hacettepe University", website: " "}
  - {name: "Özlen Konu", institute: "Bilkent University", website: " "}
