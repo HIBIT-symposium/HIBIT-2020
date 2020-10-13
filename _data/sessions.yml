@@ -160,19 +160,19 @@
 - id: 1001
   title: "Session 1 - Structural Biology | Chair: Elif Ozkirimli"
 - id: 1002
-  title: "Session 2 - Protein Evolution | Chair: Tolga Can"
+  title: "Session 2 | Chair: Tolga Can"
 - id: 1003
   title: "Session 3 - Human Genomics | Chair: Abdullah Kahraman"
 - id: 1004
-  title: "Session 4 - Microbial Genomics | Chair: Mehmet Somel"
+  title: "Session 4 | Chair: Mehmet Somel"
 - id: 1005
-  title: "Session 5 - Networks | Chair: Zeynep Gumus"
+  title: "Session 5 - Cancer Genomics | Chair: Zeynep Gumus"
 - id: 1006
   title: "Session 6 - Human Health | Chair: Tugba Suzek"
 - id: 1007
   title: "Session 7 - Disease Genomic Associations and Genomic Privacy | Chair: Cesim Erten"
 - id: 1008
-  title: "Session 8 - Human Genome Variants | Chair: Yesim Aydin Son"
+  title: "Session 8 | Chair: Yesim Aydin Son"
 
 - id: 500
   title: "Student Symposium"
