@@ -417,7 +417,7 @@ PosterAwardCommittee:
  - {name: "Özlen Konu", institute: "Bilkent University", website: " "}
  - {name: "Stuart J. Lucas", institute: "Sabancı University Nanotechnology Research & Application Center", website: " "}
  - {name: "Yavuz Oktay", institute: "Izmir Biomedicine & Genome Center", website: " "}
-
+ - {name: "Volkan Atalay", institute: "Middle East Technical University", website: " "}
 #directionDetailsWideCards:
 # -
 #  title: "Questions?"
