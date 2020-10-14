@@ -40,6 +40,19 @@
                 {% endfor %}
                 
         </div>
+        
+        <div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">    
+                <h4 class="schedule-table-heading">Poster Award Committee</h4> 
+                {% assign sorted_members = site.PosterAwardCommittee | sort: 'name' %}        
+                {% for member in sorted_members %}
+                <div class="member-header-slot col-md-6 flexbox-item-height">
+                        <h5 class="member-header-title"><b>{{ member.name }}</b></h5>
+                </div>
+                <div class="member-header-slot col-md-6 flexbox-item-height">
+                        <h5 class="member-header-title">{{ member.institute }}</h5>
+                </div>
+                {% endfor %} 
+        </div>
     
         <div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">    
                 <h4 class="schedule-table-heading">Student Organization Committee</h4>         
