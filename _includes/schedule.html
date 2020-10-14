@@ -53,14 +53,21 @@
             data-slot-detail="{{ day.tracks[slotIndex].title }}"
             data-toggle="modal"
             data-target="#sessionDetail-{{ session.id }}"
-
           >
             <div
               class="color-line"
-              {% if timeslot.color %} style="background: {{timeslot.color}}" 
-              {% else %} 
+              {%
+              if
+              timeslot.color
+              %}
+              style="background: {{timeslot.color}}"
+              {%
+              else
+              %}
               style="background: {{ day.tracks[slotIndex].color }}"
-              {% endif %}
+              {%
+              endif
+              %}
             ></div>
             <div
               class="slot-content"
@@ -94,12 +101,20 @@
             data-slot-detail="{{ session.place }}"
           >
             <div
-            class="color-line"
-            {% if timeslot.color %} style="background: {{timeslot.color}}" 
-            {% else %} 
-            style="background: {{ day.tracks[slotIndex].color }}"
-            {% endif %}
-          ></div>
+              class="color-line"
+              {%
+              if
+              timeslot.color
+              %}
+              style="background: {{timeslot.color}}"
+              {%
+              else
+              %}
+              style="background: {{ day.tracks[slotIndex].color }}"
+              {%
+              endif
+              %}
+            ></div>
             <div class="slot-content">
               <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
               {% if session.description != null %}
@@ -116,11 +131,11 @@
               >
               <div class="" id="abstract-{{ forloop.index }}">
                 <span class="helper"></span>
-                <div style="max-width: 90%; width: 70%">
+                <div style="max-width: 100%; width: 100%">
                   <p><b> {{paper.Title}}</b></p>
                   <p>{{paper.Authors}}</p>
                   <br />
-                  <p>{{paper.Abstract}}</p>
+                  <p class="just">{{paper.Abstract}}</p>
                 </div>
               </div>
 
@@ -154,11 +169,11 @@
               >
               <div class="" id="abstract-{{ forloop.index }}">
                 <span class="helper"></span>
-                <div style="max-width: 90%; width: 70%">
+                <div style="max-width: 100%; width: 100%">
                   <p><b> {{person.abstract_title}}</b></p>
-                  <p>{{person.abstract}}</p>
+                  <p class="just">{{person.abstract}}</p>
                   <br />
-                  <p>{{person.bio}}</p>
+                  <p class="just">{{person.bio}}</p>
                 </div>
               </div>
 
@@ -196,4 +211,12 @@
     {% endfor %}
   </div>
 </section>
+<style>
+  .just {
+    text-align: justify;
+    text-align-last: left;
+    font-size: 14px;
+    line-height: 17px;
+  }
+</style>
 <!-- End Schedule Section -->
