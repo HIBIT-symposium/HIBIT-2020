@@ -410,6 +410,21 @@ PCmembers:
 StudentOrganizationCommittee:
  - {name: "Halil Tuvan Gezer", institute: "Sabancı University", website: " "}
  - {name: "Begüm Özemek Güner", institute: "Max Planck Institute for Molecular Genetics", website: " "}
+ - {name: "Defne Çirci", institute: "Sabancı University", website: " "}
+ - {name: "Zeynep Kılınç", institute: "Sabancı University", website: " "}
+ - {name: "Berk Turhan", institute: "Sabancı University", website: " "}
+ - {name: "Sevilay Güleşen", institute: "Kadir Has University", website: " "}
+ - {name: "Asuman Inan", institute: "Sabancı University", website: " "}
+ - {name: "Rana Kalkan", institute: "Sabancı University", website: " "}
+ - {name: "Burak Islek", institute: "Sabancı University", website: " "}
+ - {name: "Elif Öz", institute: "Acıbadem University", website: " "}
+ - {name: "Berkay Selçuk", institute: "Sabancı University", website: " "}
+ - {name: "İbrahim Berber", institute: "Antalya Bilim University", website: " "}
+ - {name: "Muhammet Edip Akay", institute: "Antalya Bilim University", website: " "}
+ - {name: "Sezgi Kaya", institute: "Sabancı University", website: " "}
+ - {name: "Oya Işılay Canik", institute: "Sabancı University", website: " "}
+ - {name: "İlayda Beyreli", institute: "Bilkent University", website: " "}
+ - {name: "Halil İbrahim Kuru", institute: "Bilkent University", website: " "} 
 
 PosterAwardCommittee:
  - {name: "Nurcan Tunçbağ", institute: "Middle East Technical University", website: " "}
