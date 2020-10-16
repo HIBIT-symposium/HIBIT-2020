@@ -102,7 +102,7 @@
 - ID: "12"
   Authors: "Ahmet Melih Öten and Aslı Kutlu"
   Title: "Revealing the structural impacts of point mutations on MeCP2 protein associated with Rett Syndrome via MD Simulations"
-  Poster: True
+  Poster: False
   drive_id: "1cCJsC-z4dE8IPHDFvy491LgXRmsdKm5j"
   Talk: False
   Abstract:
@@ -145,7 +145,7 @@
 - ID: "17"
   Authors: "Fabian Arnold and Abdullah Kahraman"
   Title: "MTPpilot: an interactive software for NGS results analysis for molecular tumor boards"
-  Poster: True
+  Poster: False
   drive_id: "1cCJsC-z4dE8IPHDFvy491LgXRmsdKm5j"
   Talk: False
   Abstract:
@@ -678,7 +678,7 @@
 - ID: "85"
   Authors: "Meltem Ünlüsavuran, Cem Sönmez, Ahu Durmuşçelebi, Vahap Eldem, Gözde Ertürk Zararsız, Funda İpekten and Gökmen Zararsız"
   Title: "Performance evaluation of automated machine-learning algorithms in omics data"
-  Poster: True
+  Poster: False
   drive_id: "1cCJsC-z4dE8IPHDFvy491LgXRmsdKm5j"
   Talk: False
   Abstract: "The importance of omics studies has increased considerably in recent years. Omics technologies have become routinely used tools to reveal many health problems. Statistical methods are used to make sense of the data obtained using these technologies. Machine-learning methods are frequently used in omics studies, mostly for classification related problems. A wide range of machine-learning algorithms are available for classification of omics data. However, training these models to omics data may be a daunting task for clinical researchers. Automated machine learning methods (AutoML) have been presented for this purpose. These methods automate the following model building stages: (i) preprocessing, (ii) feature selection, (iii) model selection and (iv) parameter optimization. In this study, we investigated the performance of automatic machine learning methods in omic datasets. A total of 29 datasets were used, including 16 microarrays, 6 RNA-sequencing and 7 metabolomic datasets. All of these datasets are obtained from real studies for classification purposes. We included H2O and TPOT automatic machine learning methods and random forests (RF), support vector machines (SVM) and nearest shrunken centroids (NSC) machine learning methods to our experiments. These methods were compared with each other in terms of accuracy, cost and usability. Using H2O and TPOT AutoML methods, the highest classification performance was achieved with a total of 22 data, 11 microarrays, 5 RNA-seq, 6 metabolomics. Using RF, SVM and NSC methods, the highest classification performance was obtained in 11 omics datasets. AutoML methods provided compatible or better performance as compared to the classical approaches. However, as a result, no best performing approach could be found for each data. More dataset and simulation studies need to be carried out to make more precise evaluations. Finally, specialized efforts are required to automate the preprocessing steps of omics data."
@@ -810,7 +810,7 @@
 - ID: "99"
   Authors: "Tandac Guclu, Canan Atilgan and Ali Rana Atilgan"
   Title: "Ligand switching mutations in PDZ domain explained by centrality of amino acids"
-  Poster: True
+  Poster: False
   drive_id: "1cCJsC-z4dE8IPHDFvy491LgXRmsdKm5j"
   Talk: True
   Presenting_author: "Tandac Guclu"
@@ -868,7 +868,7 @@
 - ID: "104"
   Authors: "Emre Taylan Duman and Pınar Pir"
   Title: "Detection of sequencing error patterns of Illumina sequencing by deep learning based natural language processing algorithms"
-  Poster: True
+  Poster: False
   drive_id: "1cCJsC-z4dE8IPHDFvy491LgXRmsdKm5j"
   Talk: False
   Abstract: "Genome sequencing is the one of the key technologies that can reveal the power of the personalized medicine. Sequencing by synthesis is one of the mostly used approach to extract information of the genetic material. Working principle of the approach relies on the detection of the radiations by the sensor that is triggered by the laser inside of the sequencing devices of Illumina. The output of sequencing technologies is not error free and few factors are known to affect the error rates. The samples are prepared by using TruSeq library preparation kits provided by the Illumina, TruSeq kits are considered as one of the sources of sequencing errors by favoring G nucleotides. Also, it is shown that, there are certain patterns that cause incorrect basecall in sequencing devices. Further, reduced quality scores in reads, cause poor mapping coverage in the important gene sections and reduced mapping coverage may lead to incorrect SNP discoveries. In this project, we aim to better understand the quality variations on some k-mers in Illumina-sequenced data. Deep learning-based algorithms will be used to find important patterns that cause quality score fluctuations in the individual 3’mer or more k-mers. Natural language processing (NLP) techniques, mostly used for language pattern identification and developing models from the sequential data as text or speech. Popular NLP models as BERT and GPT are also prepared and trained for fastq files. Representation of the expression data by implementation of the quality scores, would potentially reveal the reasons behind quality score drop in the central locations of the sequence reads."
