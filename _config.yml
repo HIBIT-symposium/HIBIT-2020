@@ -169,8 +169,10 @@ ticketsOffers:
   priceCurrency: "₺"
   ticketsNumber: "300"
   ribbon: "-5%"
-  buyButtonLink: "/registration"
-  buyButtonText: "Register Now"
+  # buyButtonLink: "/registration"
+  # buyButtonText: "Register Now"
+  buyButtonLink: "#"
+  buyButtonText: "Register Deadline Passed"
   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
   validFrom: "2019-12-01T10:00"
   validThrough: "2020-10-15T23:59"
