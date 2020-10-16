@@ -16,7 +16,7 @@
     We used a freshwater mock community of 50 Operational Taxonomic Units (OTU) to test the capacity of the Oxford Nanopore MinION coupled with a rolling circle amplification protocol to provide long read metabarcoding results. We also propose a new Python pipeline that explores error profiles of nanopore consensus sequences, mapping accuracy, and overall community representation within a complex bulk sample. Using our molecular and bioinformatics workflow, we were able to estimate the diversity of the tested freshwater mock community with an average sequence accuracy of >99% for 1D2 sequencing on the nanopore platform. We also showed that the high error rates associated with long-read single molecule sequencing can be mitigated by using a rolling circle amplification protocol. Future bioassessment programs will tremendously benefit from such portable, highly accurate, species-level metabarcoding and it appears that we reached a point were cost-effective field-based DNA metabarcoding is possible."
 - ID: "4"
   Authors: "Emine Ela Küçük, Doğan Küçük, Nursal Arıcı and Erkut Küçük"
-  Title: "Automated post-processing to improve public health related tweet tetection"
+  Title: "Automated post-processing to improve public health related tweet detection"
   Poster: True
   drive_id: "1cCJsC-z4dE8IPHDFvy491LgXRmsdKm5j"
   Talk: False
