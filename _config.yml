@@ -46,6 +46,7 @@ navigationLinks:
  - {permalink: "/schedule/", text: "Schedule"}
 #  - {permalink: "/#tickets", text: "Registration"}
 #  - {permalink: "/logistics/", text: "Logistics"}
+ - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/committees/", text: "Committees"}
  - {permalink: "/talks/", text: "Talks"}
  - {permalink: "/posters/", text: "Posters"}
