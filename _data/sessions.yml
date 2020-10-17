@@ -34,6 +34,10 @@
   easychair_id: 72
   place: "online"
   service: true
+- id: 131
+  title: "Coffee Break"
+  place: "online"
+  service: true
 - id: 117
   title: "Keynote Speaker: Janet Thornton"
   place: "online"
@@ -65,6 +69,10 @@
 - id: 124
   title: "Selected Talk | Genotyping macro-satellites in the human population"
   easychair_id: 68
+  place: "online"
+  service: true
+- id: 132
+  title: "Coffee Break"
   place: "online"
   service: true
 - id: 125
