@@ -99,7 +99,7 @@
       sessionIds:
         - 125
       startTime: "15:00"
-      endTime: "16:30"
+      endTime: "16:00"
     - 
       sessionIds:
         - 1004
@@ -213,8 +213,14 @@
       color: "#81A094"
     - 
       sessionIds:
-        - 224
+        - 231
       startTime: "14:30"
+      endTime: "14:50"
+      color: "#81A094"
+    - 
+      sessionIds:
+        - 224
+      startTime: "15:00"
       endTime: "16:00"
     - 
       sessionIds:

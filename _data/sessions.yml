@@ -142,6 +142,11 @@
   easychair_id: 26
   place: "online"
   service: true
+- id: 231
+  title: "Selected Talk | Cardiac atrial transcriptomic landscaping reveals defects in various pathways in patients with ischemic heart disease or heart failure"
+  easychair_id: 88
+  place: "online"
+  service: true
 - id: 224
   title: "Poster Session"
   place: "online"
