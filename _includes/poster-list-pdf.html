@@ -17,9 +17,17 @@
             <p>{{ card.Authors }}</p>
             <a class="trigger_popup_fricc" id="abs-open{{ forloop.index }}"
               >Abstract</a
-            ><a class="trigger_popup_fricc" id="pdf-open{{ forloop.index }}"
-              >Poster</a
             >
+            
+            {% if card.drive_id and card.drive_id != "" %}
+              <a class="trigger_popup_fricc" id="pdf-open{{ forloop.index }}">Poster</a>
+              <!-- { % else %}
+              <span>No poster preview</span> -->
+            {% endif %}
+            {% if card.drive_id == "" %}
+            <a class="trigger_popup_fricc">Poster preview is not available</a>
+            {% endif %}
+
             <a class="trigger_popup_fricc" target="_blank" href="https://meet.jit.si/hibit2020/{{iid}}_alARIGRagEntACkAYWCo">
             Poster Session
             </a>
