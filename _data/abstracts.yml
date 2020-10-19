@@ -341,9 +341,10 @@
 - ID: "43"
   Authors: "Rıza Özçelik, Hakime Öztürk, Arzucan Özgür and Elif Ozkirimli"
   Title: "ChemBoost: A chemical language based approach for protein - ligand binding affinity prediction"
-  Poster: False
+  Poster: True
   Talk: True
-  Presenting_author: "Arzucan Özgür"
+  drive_id: "14ffJxGH5ifdaeYv4EnJgEJnAKfXdjPSf"
+  Presenting_author: "Rıza Özçelik"
   Abstract: "Identification of high affinity drug-target interactions is a major research question in drug discovery. Proteins are generally represented by their structures or sequences. However, structures are available only for a small subset of biomolecules and sequence similarity is not always correlated with functional similarity. We propose ChemBoost, a chemical language based approach for affinity prediction using SMILES syntax. We hypothesize that SMILES is a codified language and ligands are documents composed of chemical words. These documents can be used to learn chemical word vectors that represent words in similar contexts with similar vectors. In ChemBoost, the ligands are represented via chemical word embeddings, while the proteins are represented through sequence-based features and/or chemical words of their ligands. Our aim is to process the patterns in SMILES as a language to predict protein-ligand affinity, even when we cannot infer the function from the sequence. We used eXtreme Gradient Boosting to predict protein-ligand affinities in KIBA and BindingDB data sets. ChemBoost was able to predict drug-target binding affinity as well as or better than state-of-the-art machine learning systems. When powered with ligand-centric representations, ChemBoost was more robust to the changes in protein sequence similarity and successfully captured the interactions between a protein and a ligand, even if the protein has low sequence similarity to the known targets of the ligand."
 - ID: "44"
   Authors: "Deniz Esen, Müge Bozlar, Nagihan Gizay Gönüllü and Bahar Degirmenci Uzun"
