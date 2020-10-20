@@ -80,8 +80,8 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "library_n.jpg"
 statisticBlock:
- - {count: "720", prefix: "", specialCharacter: "", info: "attendees", detail: "from everywhere"}
- - {count: "4", prefix: "", specialCharacter: "", info: "days", detail: "of solid science"}
+ - {count: "720", prefix: "", specialCharacter: "", info: "attendees", detail: ""}
+ - {count: "4", prefix: "", specialCharacter: "", info: "days", detail: ""}
  - {count: "3", prefix: "", specialCharacter: "", info: "keynote speakers", detail: ""}
  - {count: "5", prefix: "", specialCharacter: "", info: "invited speakers", detail: ""}
  - {count: "14", prefix: "", specialCharacter: "", info: "selected talks", detail: ""}
