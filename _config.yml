@@ -422,13 +422,16 @@ StudentOrganizationCommittee:
  - {name: "Burak Islek", institute: "Sabancı University", website: " "}
  - {name: "Elif Öz", institute: "Acıbadem University", website: " "}
  - {name: "Berkay Selçuk", institute: "Sabancı University", website: " "}
- - {name: "İbrahim Berber", institute: "Antalya Bilim University", website: " "}
+ - {name: "Ibrahim Berber", institute: "Antalya Bilim University", website: " "}
  - {name: "Muhammet Edip Akay", institute: "Antalya Bilim University", website: " "}
- - {name: "Sezgi Kaya", institute: "Sabancı University", website: " "}
  - {name: "Oya Işılay Canik", institute: "Sabancı University", website: " "}
- - {name: "İlayda Beyreli", institute: "Bilkent University", website: " "}
- - {name: "Halil İbrahim Kuru", institute: "Bilkent University", website: " "} 
-
+ - {name: "Ilayda Beyreli", institute: "Bilkent University", website: " "}
+ - {name: "Halil İbrahim Kuru", institute: "Bilkent University", website: " "}
+ - {name: "Afshan Nabi", institute: "Sabancı University", website: " "}
+ - {name: "Yasin Kaya", institute: "Hacettepe University", website: " "}
+ - {name: "Tuvan Gezer", institute: "Sabancı University", website: " "}
+ - {name: "Dilek Koptekin", institute: "Middle East Technical University", website: " "}
+ 
 PosterAwardCommittee:
  - {name: "Nurcan Tunçbağ", institute: "Middle East Technical University", website: " "}
  - {name: "Tunca Doğan", institute: "Hacettepe University", website: " "}
