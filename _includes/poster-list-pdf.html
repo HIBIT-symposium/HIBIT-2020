@@ -12,16 +12,14 @@
           data-delay="{{ animationDelay }}"
         >
           <div class="">
-            <br>
-            <br>
-            <br>
+
             <div class="pagebreak"> </div>
             <h6>{{card.ID}}) {{ card.Title }}</h6>
             {% assign iid = card.ID | plus: 0 %}<p>{% if iid <= 58 %}October 22{%else%}October 23{%endif%}</p></br>
             <p>{{ card.Authors }}</p>
             <!-- <a class="trigger_popup_fricc" id="abs-open{{ forloop.index }}">Abstract</a> -->
             <p style="font-size: small;">{{ card.Abstract }}</p>
-            <p><br><br></p>
+
             {% if card.drive_id and card.drive_id != "" %}
               <a class="trigger_popup_fricc" id="pdf-open{{ forloop.index }}">Poster</a>
             {% endif %}
@@ -33,6 +31,8 @@
             <a class="trigger_popup_fricc" target="_blank" href="https://meet.jit.si/hibit2020/{{iid}}_alARIGRagEntACkAYWCo">
             Poster Session | {% assign iid = card.ID | plus: 0 %}<span>{% if iid <= 58 %}October 22{%else%}October 23{%endif%}</span>
             </a>
+            <br>
+            <br>
           </div>
         </div>
         {% endif %} {% assign animationDelay = animationDelay %} {% endfor %}
