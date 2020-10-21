@@ -169,6 +169,10 @@
   title: "Closing Remarks"
   place: "online"
   service: true
+- id: 227
+  title: "Memorial session in honor of Prof. Dr. Neşe Yalabık (In Turkish)"
+  place: "online"
+  service: true
 
 - id: 1001
   title: "Session 1 - Structural Biology | Chair: Elif Ozkirimli"
