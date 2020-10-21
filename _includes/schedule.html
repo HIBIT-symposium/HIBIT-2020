@@ -122,10 +122,11 @@
               <p class="service-description">{{ session.description }}</p>
               {% endif %} {% if session.easychair_id != null %} {%assign paper =
               site.data.abstracts | where:"ID", session.easychair_id | first %}
+              <br><p> Presenting author: {{paper.Presenting_author}}</p>
+
               <a class="trigger_popup_fricc" id="abs-open{{ forloop.index }}"
                 >Abstract</a
               >
-
               <a class="trigger_popup_fricc" id="abs-close{{ forloop.index }}"
                 >Collapse</a
               >
@@ -133,6 +134,7 @@
                 <span class="helper"></span>
                 <div style="max-width: 100%; width: 100%">
                   <p><b> {{paper.Title}}</b></p>
+                  
                   <p>{{paper.Authors}}</p>
                   <br />
                   <p class="just">{{paper.Abstract}}</p>
