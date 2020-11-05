@@ -1,0 +1,15 @@
+<!-- Begin Direction Details-->
+<section id="direction-details">
+  <div class="content-wrapper">
+    <h5>
+      If you aren't on the list or there is an error on the certificate please
+      contact us.
+    </h5>
+    {% for card in site.data.certs %}
+    <div class="row">
+      <a href="{{card.URL}}"> {{card.Name}} </a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+<!-- End Direction Details -->
